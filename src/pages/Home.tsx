@@ -1,11 +1,12 @@
-import React from 'react'
-import Hero from '../components/templates/Hero'
+import Hero from "../components/templates/Hero";
+import ClientGallery from "../components/templates/ClientGallery/index";
 const Home = () => {
   return (
     <div>
-        <Hero />
+      <Hero />
+      <ClientGallery />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
