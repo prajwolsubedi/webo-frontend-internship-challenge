@@ -1,5 +1,24 @@
-.portfolio-container{
-    padding: 72px 150px;
-    height: 210px;
-    background: #FAFBFF;
+.portfolio-container {
+  padding: 72px 184px 0 119px;
+  display: flex;
+  background: #fafbff;
+  justify-content: space-between;
+  font-family: "Manrope", sans-serif;
+}
+
+.portfolio-heading {
+  width: 646px;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 66px;
+  letter-spacing: -1.68px;
+}
+
+.portfolio-desc {
+  width: 449px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 29px; 
+  letter-spacing: -0.32px;
+  margin-top: 19px;
 }

@@ -1,8 +1,9 @@
 .choose-us-container {
-  margin: 130px 130px 10px 124px;
+  padding: 130px 130px 10px 124px;
   display: flex;
   justify-content: space-between;
   font-family: "Manrope", sans-serif;
+  background: #fafbff;
 }
 
 .choose-us-title {
@@ -53,7 +54,7 @@
   align-items: flex-start;
 }
 
-.choose-us-checkmark-container > *:first-child,
-:nth-child(2) {
-  margin-bottom: 5px;
-}
+// .choose-us-checkmark-container > *:first-child,
+// :nth-child(2) {
+//   margin-bottom: 5px;
+// }

@@ -1,5 +1,4 @@
 /// <reference types="vite-plugin-svgr/client" />
-import React from "react";
 import "./style.scss";
 import Client1 from "../../../assets/client1.svg?react";
 import Client2 from "../../../assets/client2.svg?react";

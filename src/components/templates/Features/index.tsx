@@ -8,7 +8,6 @@ const index = () => {
         background: "#FAFBFF",
         display: "flex",
         justifyContent: "space-between",
-        border: "2px solid black",
       }}
     >
       <FeatureBox

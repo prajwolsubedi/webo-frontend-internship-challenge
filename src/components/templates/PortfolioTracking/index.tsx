@@ -1,8 +1,15 @@
 import ContentBox from "../../molecules/ContentBox/index";
-import "./style.scss"
+import "./style.scss";
 const index = () => {
   return (
     <div className="portfolio-container">
+      <div>
+        <h1 className="portfolio-heading">Automated portfolio tracking</h1>
+        <p className="portfolio-desc">
+          Yet bed any for travelling assistance indulgence unpleasing. Not
+          thoughts all exercise blessing.
+        </p>
+      </div>
       <ContentBox
         height="177px"
         width="402px"

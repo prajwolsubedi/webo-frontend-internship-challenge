@@ -8,7 +8,7 @@ const Navbar = () => {
       </div>
 
       <div className="nav-links">
-        <ul>
+        <ul className="nav-links-container">
           <li>Product</li>
           <li>Template</li>
           <li>Blog</li>
