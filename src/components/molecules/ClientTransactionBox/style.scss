@@ -1,0 +1,61 @@
+.transaction-box-container {
+  width: 531px;
+  height: 480px;
+  border-radius: 20px;
+  background: #dff6ff;
+  position: relative;
+  overflow: hidden;
+}
+.transaction-box-container .transaction {
+  overflow: visible;
+}
+
+.bubble {
+  width: 162px;
+  height: 162px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.first {
+  background: #ff7f5c;
+  top: -70px;
+  left: -50px;
+}
+
+.second {
+  background: #4f46ba;
+  right: -90px;
+  top: 25%;
+}
+
+.third {
+  width: 242px;
+  height: 242px;
+  background: #52f5d8;
+  bottom: -100px;
+  left: -100px;
+}
+
+.transaction {
+  position: absolute;
+  overflow: visible;
+}
+
+.frst {
+  top: 41px;
+  left: 64px;
+  overflow: visible;
+}
+.scnd {
+  top: 151px;
+  left: 170px;
+}
+.thrd {
+  top: 261px;
+  left: 132px;
+}
+.frth {
+  bottom: 24px;
+  left: 47px;
+}

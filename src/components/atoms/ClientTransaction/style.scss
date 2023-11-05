@@ -1,0 +1,53 @@
+.transaction-container {
+  height: 85px;
+  width: 433px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #fff;
+
+  box-shadow: 0px 1.85185px 3.14815px 0px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px 0px rgba(0, 0, 0, 0.01),
+    0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+    0px 38.51852px 25.48148px 0px rgba(0, 0, 0, 0.02),
+    0px 64.81481px 46.85185px 0px rgba(0, 0, 0, 0.02),
+    0px 100px 80px 0px rgba(0, 0, 0, 0.03);
+}
+
+.transaction-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-pic {
+  margin: 16px 14px 15px 19px;
+}
+
+.client-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 86px;
+  height: 26px;
+  border-radius: 30px;
+  opacity: 0.6;
+  background: rgba(55, 52, 169, 0.2);
+  // color: #1d16e5;
+  color: #3734a9;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px; /* 93.333% */
+  letter-spacing: -0.3px;
+}
+
+.client-name {
+  color: #757095;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 214.286% */
+  letter-spacing: -0.28px;
+}
