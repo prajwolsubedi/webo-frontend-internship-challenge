@@ -1,0 +1,59 @@
+.choose-us-container {
+  margin: 130px 130px 10px 124px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Manrope", sans-serif;
+}
+
+.choose-us-title {
+  color: #3734a9;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.choose-us-heading {
+  color: #000;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px; /* 120% */
+  letter-spacing: -1.5px;
+}
+
+.choose-us-desc {
+  color: #505887;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.36px;
+  margin-bottom: 23px;
+  margin-top: 23px;
+}
+
+.choose-us-content {
+  width: 485px;
+}
+
+.divider {
+  width: 100%;
+  background: #c4c4c4;
+  height: 2px;
+  margin: 23px 0 27px 0;
+}
+
+.choose-us-checkmark-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.choose-us-checkmark-container > *:first-child,
+:nth-child(2) {
+  margin-bottom: 5px;
+}

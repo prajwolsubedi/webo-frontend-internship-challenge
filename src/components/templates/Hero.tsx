@@ -1,8 +1,10 @@
+/// <reference types="vite-plugin-svgr/client" />
 import "./Hero.scss";
 import Navbar from "../molecules/Navbar";
 import BlueButton from "../atoms/Buttons/BlueButton";
 import IconButton from "../atoms/Buttons/IconButton/IconButton";
 import Checkmark from "../atoms/Checkmarks/Checkmark";
+import HeroSvg from "../../assets/HeroSvg.svg?react";
 const Hero = () => {
   return (
     <div className="hero-container">
@@ -27,8 +29,14 @@ const Hero = () => {
         </div>
 
         <div className="hero-images">
-          <img src="heroImages/Image2.png" />
-          <img src="heroImages/Image1.png" />
+          <img src="heroImages/Image2.png" className="hero-image-first" />
+          <img src="heroImages/Image1.png" className="hero-img-second" />
+          <img src="heroImages/LogoText.png" className="hero-logo-img" />
+          <div className="hero-image-third-container">
+            <div className="hero-svg-container">
+              <HeroSvg />
+            </div>
+          </div>
         </div>
       </div>
     </div>

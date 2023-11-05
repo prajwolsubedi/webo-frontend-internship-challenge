@@ -2,8 +2,10 @@ import { IoCheckmarkCircle } from "react-icons/io5";
 interface CheckmarkProps {
   content: string;
   color?: string;
+  fontSize?: string;
+  textColor?: string;
 }
-const Checkmark = ({ content, color }: CheckmarkProps) => {
+const Checkmark = ({ content, color, fontSize, textColor }: CheckmarkProps) => {
   const iconStyle = {
     width: "30px",
     height: "30px",
@@ -22,8 +24,8 @@ const Checkmark = ({ content, color }: CheckmarkProps) => {
       <IoCheckmarkCircle style={iconStyle} />
       <p
         style={{
-          color: " #757095",
-          fontSize: "17px",
+          color: textColor || "#757095",
+          fontSize: fontSize || "17px",
           fontWeight: "500",
           lineHeight: "30px",
           letterSpacing: "-0.34px",

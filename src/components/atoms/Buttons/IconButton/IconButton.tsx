@@ -9,7 +9,7 @@ const IconButton = ({ content }: IconButtonProps) => {
   return (
     <div className="play-btn">
       <HeroBtnIcon />
-      <button>{content}</button>
+      <button style={{marginLeft: "10px"}}>{content}</button>
     </div>
   );
 };
