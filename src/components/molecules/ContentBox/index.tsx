@@ -13,7 +13,7 @@ const index = ({ content, speaker, width, height }: ContentBoxProps) => {
     height,
     color: "#000",
     fontFamily: "Manrope, 'sans-serif'",
-    background: "#C4C4C4",
+    background: "#c4c4c4",
     borderRadius: "20px",
     fontStyle: "normal",
     opacity: "0.7",
