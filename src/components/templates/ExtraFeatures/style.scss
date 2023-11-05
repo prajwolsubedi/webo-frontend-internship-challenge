@@ -1,0 +1,50 @@
+.extra-feature-container {
+  height: 833px;
+  background: #c9e7f2;
+  font-family: "Manrope", sans-serif;
+  padding: 146px 117px 137px 123px;
+  margin-top: 90px;
+}
+
+.feature-heading {
+  font-size: 71px;
+  font-weight: 800;
+  line-height: 66px;
+  letter-spacing: -2.13px;
+}
+
+.feature-desc {
+  width: 557px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: -0.32px;
+  margin-top: 37px;
+}
+
+.extra-feature-box-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 51px;
+}
+
+.feature-box-small-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.feature-box-small {
+  width: 380px;
+  height: 153px;
+  border-radius: 10px;
+  border: 1px solid #abc8d2;
+  background: #fff;
+  padding: 42px 43px 41px 31px;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 35px;
+  letter-spacing: -0.66px;
+}
