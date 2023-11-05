@@ -1,0 +1,53 @@
+.review-container {
+  height: 256px;
+  background: #3734a9;
+  padding: 69px 158px 63px 149px;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.review-desc {
+  margin-top: 5px;
+  width: 143px;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 31px; /* 163.158% */
+  letter-spacing: -0.38px;
+}
+
+.review-svg-container {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+
+.review-quantity {
+  color: #fff;
+
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px;
+  letter-spacing: -1.44px;
+}
+
+.review-name {
+  margin-top: 21px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: -0.6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-icons {
+  margin-right: 10px;
+  color: #B1CA16;
+  
+}
