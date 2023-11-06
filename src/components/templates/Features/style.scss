@@ -1,0 +1,17 @@
+.feature-container {
+  padding: 72px 117px;
+  background: #fafbff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px) {
+  .feature-container {
+    padding: 40px 20px;
+  }
+
+  .feature-container > :first-child, :nth-child(2){
+    margin-bottom: 20px;
+  }
+}

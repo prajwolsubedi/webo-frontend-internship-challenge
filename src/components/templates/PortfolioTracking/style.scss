@@ -1,6 +1,7 @@
 .portfolio-container {
   padding: 72px 184px 0 119px;
   display: flex;
+  flex-wrap: wrap;
   background: #fafbff;
   justify-content: space-between;
   font-family: "Manrope", sans-serif;
@@ -21,4 +22,25 @@
   line-height: 29px; 
   letter-spacing: -0.32px;
   margin-top: 19px;
+}
+
+
+@media screen and (max-width: "480px") {
+  .portfolio-container {
+    padding: 40px 20px;
+  }
+
+  .portfolio-heading {
+    font-size: 45px;
+    width: 370px;
+  }
+
+  .portfolio-desc {
+    font-size: 14px;
+    width: 370px;
+    margin-bottom: 40px;
+  }
+
+
+  
 }

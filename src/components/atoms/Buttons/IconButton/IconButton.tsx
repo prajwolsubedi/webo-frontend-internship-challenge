@@ -8,8 +8,8 @@ import HeroBtnIcon from "../../../../assets/heroBtnIcon.svg?react";
 const IconButton = ({ content }: IconButtonProps) => {
   return (
     <div className="play-btn">
-      <HeroBtnIcon />
-      <button style={{marginLeft: "10px"}}>{content}</button>
+      <HeroBtnIcon style={{width: "30%", height: "100%"}} />
+      <p style={{marginLeft: "10px", fontSize: "16px", color: "#3734A9"}}>{content}</p>
     </div>
   );
 };

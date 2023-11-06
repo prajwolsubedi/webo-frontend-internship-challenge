@@ -1,14 +1,9 @@
-import React from "react";
+import "./style.scss"
 import FeatureBox from "../../molecules/FeatureBox/index";
 const index = () => {
   return (
     <div
-      style={{
-        padding: "72px 117px",
-        background: "#FAFBFF",
-        display: "flex",
-        justifyContent: "space-between",
-      }}
+    className="feature-container"
     >
       <FeatureBox
         count="01"

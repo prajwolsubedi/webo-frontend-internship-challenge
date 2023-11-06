@@ -11,7 +11,7 @@ const index = () => {
         </p>
       </div>
       <ContentBox
-        height="177px"
+        height="200px"
         width="402px"
         content="Wise busy past both park when an ye no. Nay likely her length sooner thrown sex lively income. The expense windows adapted sir. Wrong widen."
         speaker="Mike Taylor, Web Designer"

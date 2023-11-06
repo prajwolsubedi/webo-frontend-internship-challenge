@@ -50,3 +50,32 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .nav-links{
+    display: none;
+    margin: 0px;
+  }
+  .logo h1{
+    font-size: 16px;
+  }
+
+  .start-free-btn{
+    width: 70px;
+    font-size: 12px;
+    margin: 0;
+    margin-left: 15px;
+    height: 35px;
+  }
+
+  .sign-in-btn{
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .navbar-container{
+    align-items: center;
+    justify-content: space-between;
+  }
+
+}

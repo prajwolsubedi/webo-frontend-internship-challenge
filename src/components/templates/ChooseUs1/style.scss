@@ -4,6 +4,7 @@
   justify-content: space-between;
   font-family: "Manrope", sans-serif;
   background: #fafbff;
+  flex-wrap: wrap;
 }
 
 .choose-us-title {
@@ -58,3 +59,9 @@
 // :nth-child(2) {
 //   margin-bottom: 5px;
 // }
+
+@media screen and (max-width: 480px) {
+  .choose-us-container {
+    padding: 40px 20px;
+  }
+}

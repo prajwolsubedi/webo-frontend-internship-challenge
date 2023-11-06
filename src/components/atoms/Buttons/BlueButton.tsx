@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./BlueButton.scss";
 interface BlueBotton {
   content: string;

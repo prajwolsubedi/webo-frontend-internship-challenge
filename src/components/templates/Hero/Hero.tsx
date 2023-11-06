@@ -1,10 +1,10 @@
 /// <reference types="vite-plugin-svgr/client" />
 import "./Hero.scss";
-import Navbar from "../molecules/Navbar";
-import BlueButton from "../atoms/Buttons/BlueButton";
-import IconButton from "../atoms/Buttons/IconButton/IconButton";
-import Checkmark from "../atoms/Checkmarks/Checkmark";
-import HeroSvg from "../../assets/HeroSvg.svg?react";
+import Navbar from "../../molecules/Navbar/Navbar";
+import BlueButton from "../../atoms/Buttons/BlueButton";
+import IconButton from "../../atoms/Buttons/IconButton/IconButton";
+import Checkmark from "../../atoms/Checkmarks/Checkmark";
+import HeroSvg from "../../../assets/HeroSvg.svg?react";
 const Hero = () => {
   return (
     <div className="hero-container">
@@ -19,8 +19,12 @@ const Hero = () => {
             thoughts all exercise blessing
           </p>
           <div className="hero-buttons">
-            <BlueButton content="Get Started" />
-            <IconButton content="See how it works" />
+            <div className="hero-blue-btn">
+              <BlueButton content="Get Started" />
+            </div>
+            <div className="hero-icn-btn">
+              <IconButton content="See how it works" />
+            </div>
           </div>
           <div className="hero-footer-btns">
             <Checkmark content="Free Register" color="#3734A9" />
