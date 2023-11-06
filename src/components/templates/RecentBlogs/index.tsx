@@ -1,4 +1,4 @@
-import HorizontalBlogBox from "../../molecules/BlogBox/HorizontalBlogBox/index";
+import HorizontalBlogBox from "../../molecules/BlogBox/BlogBox/index";
 import "./styles.scss";
 const index = () => {
   return (
