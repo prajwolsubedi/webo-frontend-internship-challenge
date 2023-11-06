@@ -11,20 +11,24 @@ const index = () => {
         </p>
       </div>
       <div className="extra-feature-box-container">
-        <FeatureBox
-          logoColor="#FF7F5C"
-          title="Really boy law county she unable her sister"
-          description="We so opinion friends me message as delight. Whole front do of plate heard oh ought."
-          textAlign="left"
-          headingWidth="305px"
-        />
-        <FeatureBox
-          logoColor="#3734A9"
-          title="Among sex are leave law built now"
-          description="We so opinion friends me message as delight. Whole front do of plate heard oh ought."
-          textAlign="left"
-          descriptionWidth="299px"
-        />
+        <div className="feature-box">
+          <FeatureBox
+            logoColor="#FF7F5C"
+            title="Really boy law county she unable her sister"
+            description="We so opinion friends me message as delight. Whole front do of plate heard oh ought."
+            textAlign="left"
+            logoPosition="left"
+          />
+        </div>
+        <div className="feature-box">
+          <FeatureBox
+            logoColor="#3734A9"
+            title="Among sex are leave law built now"
+            description="We so opinion friends me message as delight. Whole front do of plate heard oh ought."
+            textAlign="left"
+            logoPosition="left"
+          />
+        </div>
 
         <div className="feature-box-small-container">
           <div className="feature-box-small">

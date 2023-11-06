@@ -5,24 +5,23 @@
   font-family: "Manrope", sans-serif;
 }
 
-.nav-links{
-    width: 400px;
-    margin-left: 100px;
-    margin-top: 14px;
+.nav-links {
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 14px;
 }
 
-
-.nav-links-container{
-    list-style: none;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    // border: 2px solid black;
+.nav-links-container {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // border: 2px solid black;
 }
 
-.user-actions{
-    display: flex;
+.user-actions {
+  display: flex;
 }
 .sign-in-btn {
   color: #000;
@@ -51,16 +50,18 @@
   cursor: pointer;
 }
 
+// 320px — 480px: Mobile devices. 481px — 768px: iPads, Tablets. 769px — 1024px: Small screens, laptops. 1025px — 1200px: Desktops, large screens.
+
 @media screen and (max-width: 480px) {
-  .nav-links{
+  .nav-links {
     display: none;
     margin: 0px;
   }
-  .logo h1{
+  .logo h1 {
     font-size: 16px;
   }
 
-  .start-free-btn{
+  .start-free-btn {
     width: 70px;
     font-size: 12px;
     margin: 0;
@@ -68,14 +69,41 @@
     height: 35px;
   }
 
-  .sign-in-btn{
+  .sign-in-btn {
     font-size: 12px;
     margin: 0;
   }
 
-  .navbar-container{
+  .navbar-container {
     align-items: center;
     justify-content: space-between;
   }
+}
+@media screen and (max-width: 1025px) {
+  .nav-links {
+    display: none;
+    margin: 0px;
+  }
+  .logo h1 {
+    font-size: 24px;
+  }
 
+  .start-free-btn {
+    width: 95px;
+    font-size: 15px;
+    margin: 0;
+    margin-left: 15px;
+    height: 45px;
+  }
+
+  .sign-in-btn {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .navbar-container {
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px 0;
+  }
 }

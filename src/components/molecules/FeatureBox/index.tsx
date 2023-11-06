@@ -4,6 +4,7 @@ interface FeatureBoxProps {
   title: string;
   description: string;
   logoColor: string;
+  logoPosition?: string;
   textAlign?:
     | "center"
     | "justify"
@@ -12,8 +13,6 @@ interface FeatureBoxProps {
     | "start"
     | "end"
     | "match-parent";
-    headingWidth?: string;
-    descriptionWidth?: string;
 }
 const index = ({
   count,
@@ -21,16 +20,19 @@ const index = ({
   description,
   logoColor,
   textAlign = "center",
-  headingWidth = "276px",
-  descriptionWidth = "270px"
+  logoPosition = "center",
 }: FeatureBoxProps) => {
   return (
     <div className="feature-box-container">
       <h3 className="feature-box-count">{count}</h3>
-      <div className="feature-box-logo">
+      <div
+        className="feature-box-logo"
+        style={{ margin: logoPosition === "center" ? "auto" : "0px" }}
+      >
         <div
+          className="small-line"
           style={{
-            width: "42px",
+            width: "40px",
             height: "10px",
             marginBottom: "5px",
             backgroundColor: "#000",
@@ -40,11 +42,25 @@ const index = ({
           style={{ width: "50px", height: "35px", backgroundColor: logoColor }}
         ></div>
       </div>
-      <div className="feature-box-content-container">
-        <h3 className="feature-box-title" style={{ textAlign, width: headingWidth}}>
+      <div
+        className="feature-box-content-container"
+      >
+        <h3
+          className="feature-box-title"
+          style={{
+            textAlign,
+            width: logoPosition === "center" ? "90%" : "100%",
+          }}
+        >
           {title}
         </h3>
-        <p className="feature-box-desc" style={{ textAlign, widows: descriptionWidth }}>
+        <p
+          className="feature-box-desc"
+          style={{
+            textAlign,
+            width: logoPosition === "center" ? "70%" : "100%",
+          }}
+        >
           {description}
         </p>
       </div>

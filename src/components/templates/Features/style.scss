@@ -6,12 +6,36 @@
   flex-wrap: wrap;
 }
 
+.feature-box{
+  width: 380px;
+  height: 382px;
+}
+
+
 @media screen and (max-width: 480px) {
   .feature-container {
     padding: 40px 20px;
   }
 
-  .feature-container > :first-child, :nth-child(2){
+  .feature-container > :first-child,
+  :nth-child(2) {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+
+  .feature-box{
+    width: 480px;
+    height: 382px;
+  }
+
+  .feature-container {
+    padding: 40px 60px;
+    justify-content: center;
+  }
+
+  .feature-container > :first-child,
+  :nth-child(2) {
     margin-bottom: 20px;
   }
 }

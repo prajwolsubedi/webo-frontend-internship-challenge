@@ -3,7 +3,7 @@ import "./style.scss";
 const index = () => {
   return (
     <div className="portfolio-container">
-      <div>
+      <div className="portfolio-content-container">
         <h1 className="portfolio-heading">Automated portfolio tracking</h1>
         <p className="portfolio-desc">
           Yet bed any for travelling assistance indulgence unpleasing. Not

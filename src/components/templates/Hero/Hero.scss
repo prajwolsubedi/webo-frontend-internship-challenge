@@ -116,7 +116,7 @@
 
 @media screen and (max-width: 480px) {
   .hero-container {
-    padding: 15px;
+    padding: 20px;
   }
 
   .hero-heading {
@@ -144,5 +144,55 @@
   }
   .hero-buttons > :first-child {
     margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .hero-section {
+    margin-top: 100px;
+    justify-content: space-between;
+  }
+  .hero-container {
+    padding: 30px;
+    height: 100vh;
+  }
+
+  .hero-content {
+    width: 450px;
+    margin-top: 0;
+  }
+  .hero-heading {
+    font-size: 60px;
+    letter-spacing: normal;
+    line-height: normal;
+    width: 460px;
+  }
+
+  .hero-para {
+    width: 400px;
+  }
+  .hero-images {
+    margin: 0px;
+    width: 390px;
+  }
+  .hero-image-first {
+    width: 200px;
+    top: 100px;
+    left: 20px;
+  }
+  .hero-img-second {
+    width: 250px;
+    top: 100px;
+    left: 50px;
+  }
+
+  .hero-logo-img {
+    width: 350px;
+    top: -70px;
+    left: 20px;
+  }
+  .hero-image-third-container {
+    top: 45px;
+    left: 135px;
   }
 }

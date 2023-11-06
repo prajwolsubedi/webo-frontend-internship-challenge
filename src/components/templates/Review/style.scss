@@ -48,6 +48,24 @@
 
 .review-icons {
   margin-right: 10px;
-  color: #B1CA16;
-  
+  color: #b1ca16;
+}
+
+@media screen and (max-width: 1024px) {
+  .review-container {
+    padding: 40px 55px;
+    height: 200px;
+  }
+  .review-desc {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .review-quantity {
+    font-size: 50px;
+  }
+
+  .review-name {
+    font-size: 20px;
+  }
 }
