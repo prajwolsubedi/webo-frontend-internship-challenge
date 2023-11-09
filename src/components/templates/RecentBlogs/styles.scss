@@ -15,8 +15,20 @@
     background: #FAFBFF;
 }
 
+
 .vertical-blog-container{
   margin-top: 25px;
   display: flex;
   justify-content: space-between;
+}
+
+.vertical-blog-container > div{
+  width: 32%;
+  height: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+  .vertical-blog-container > div{
+    height: 360px;
+  }
 }

@@ -7,18 +7,12 @@ interface MoreQuestionProps {
 }
 
 import { FaMessage } from "react-icons/fa6";
-const index = ({
-  width,
-  height,
-  btnContent,
-  heading,
-  desc,
-}: MoreQuestionProps) => {
+const index = ({ btnContent, heading, desc }: MoreQuestionProps) => {
   return (
     <div
       style={{
-        width: "401px",
-        height: "520px",
+        width: "100%",
+        height: "100%",
         borderRadius: "10px",
         border: "1px solid #CFCFCF",
         background: "#FFF",
@@ -27,20 +21,23 @@ const index = ({
         padding: "32px",
         fontFamily: "'Manrope', sans-serif",
         justifyContent: "space-between",
+        alignItems: "center",
       }}
     >
       <div
         style={{
           height: "60%",
+          width: "80%",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "space-between",
+          marginBottom: "30px",
         }}
       >
         <FaMessage style={{ fontSize: "70px" }} />
         <h3>{heading}</h3>
-        <p style={{ width: "333px", fontSize: "16px", textAlign: "center" }}>
+        <p style={{ width: "80%", fontSize: "16px", textAlign: "center" }}>
           {desc}
         </p>
       </div>

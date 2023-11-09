@@ -1,5 +1,4 @@
 import { AiOutlinePlus } from "react-icons/ai";
-import { useState } from "react";
 interface FAQBoxProps {
   showDesc?: number;
   title: string;
@@ -13,7 +12,7 @@ const index = ({ showDesc, title, desc, id, handleShowBox }: FAQBoxProps) => {
   };
   const descDisplay = showDesc === id ? "block" : "none";
   const containerStyle = {
-    width: "751px",
+    width: "100%",
     borderRadius: "10px",
     border: "1px solid #CFCFCF",
     background: "#fff",

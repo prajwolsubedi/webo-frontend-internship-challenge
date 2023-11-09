@@ -1,5 +1,5 @@
 import "./style.scss";
-interface HorizontalBlogBoxProps {
+interface BlogBoxProps {
   description: string;
   heading: string;
   src: string;
@@ -12,24 +12,25 @@ const index = ({
   heading,
   src,
   choice,
-  width = choice === "vertical" ? "340px" : "500px",
-  height = choice === "vertical" ? "202px" : "285px",
-}: HorizontalBlogBoxProps) => {
+  // width = choice === "vertical" ? "340px" : "500px",
+  // height = choice === "vertical" ? "202px" : "285px",
+  width = "100%",
+  height = "100%",
+}: BlogBoxProps) => {
   const flexDirection = choice === "vertical" ? "column" : "row";
-  const headingWidth = choice === "vertical" ? "362px" : "524px";
   return (
     <div
       className="blog-box-container"
       style={{
         display: "flex",
         flexDirection,
-        height: choice === "vertical" ? "436px" : "none",
-        width: choice === "vertical"? "380px" : "100%",
+        height,
+        width,
       }}
     >
       <div className="blog-box-content">
         <p className="blog-des">{description}</p>
-        <h3 className="blog-heading" style={{ width: headingWidth }}>
+        <h3 className="blog-heading" style={{ width: "70%" }}>
           {heading}
         </h3>
         {choice === "horizontal" && <p className="read-more">Read More →</p>}
@@ -38,7 +39,7 @@ const index = ({
         <img
           src={src}
           alt="blog image"
-          style={{ width, height, objectFit: "cover" }}
+          style={{ width: "90%", height: "90%", objectFit: "cover" }}
         />
       </div>
     </div>

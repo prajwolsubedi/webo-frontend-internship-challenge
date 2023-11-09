@@ -1,4 +1,4 @@
-.blog-box-container{
+.blog-box-container {
   background: #fff;
   font-family: "Manrope", sans-serif;
   justify-content: space-between;
@@ -22,7 +22,6 @@
 .blog-heading {
   color: #000;
   width: 524px;
-
   font-size: 29px;
   font-weight: 700;
   line-height: 36px;
@@ -31,4 +30,12 @@
 
 .read-more {
   margin-top: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .blog-heading {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 600;
+  }
 }

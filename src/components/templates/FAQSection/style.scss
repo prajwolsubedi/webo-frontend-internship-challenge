@@ -24,3 +24,17 @@
 .more-question {
   width: 401px;
 }
+
+@media screen and (max-width: 1024px) {
+  .faq-box-container{
+    flex-direction: column;
+  }
+  .faq-section-container {
+    padding: 60px 40px;
+    font-family: "Manrope", sans-serif;
+    border: 2px solid black;
+  }
+  .more-question{
+    width: 95%;
+  }
+}
