@@ -1,5 +1,8 @@
 # Responsiveness in Progress
 
+website link:
+https://prajwolsubedi-intuji-assessment.netlify.app/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 To run the project follow following steps:
 
