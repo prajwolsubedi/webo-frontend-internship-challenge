@@ -18,6 +18,7 @@ const index = () => {
             description="We so opinion friends me message as delight. Whole front do of plate heard oh ought."
             textAlign="left"
             logoPosition="left"
+            border="1px solid #ABC8D2"
           />
         </div>
         <div className="feature-box">
@@ -27,6 +28,7 @@ const index = () => {
             description="We so opinion friends me message as delight. Whole front do of plate heard oh ought."
             textAlign="left"
             logoPosition="left"
+            border="1px solid #ABC8D2"
           />
         </div>
 

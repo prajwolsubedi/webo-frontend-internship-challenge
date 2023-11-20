@@ -37,7 +37,13 @@ const index = ({ btnContent, heading, desc }: MoreQuestionProps) => {
       >
         <FaMessage style={{ fontSize: "70px" }} />
         <h3>{heading}</h3>
-        <p style={{ width: "80%", fontSize: "16px", textAlign: "center" }}>
+        <p
+          style={{
+            fontSize: "16px",
+            textAlign: "center",
+            fontWeight: "600",
+          }}
+        >
           {desc}
         </p>
       </div>

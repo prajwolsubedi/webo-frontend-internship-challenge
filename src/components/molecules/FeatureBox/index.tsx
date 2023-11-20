@@ -13,6 +13,7 @@ interface FeatureBoxProps {
     | "start"
     | "end"
     | "match-parent";
+  border?: string;
 }
 const index = ({
   count,
@@ -21,9 +22,10 @@ const index = ({
   logoColor,
   textAlign = "center",
   logoPosition = "center",
+  border,
 }: FeatureBoxProps) => {
   return (
-    <div className="feature-box-container">
+    <div className="feature-box-container" style={{ border }}>
       <h3 className="feature-box-count">{count}</h3>
       <div
         className="feature-box-logo"
@@ -42,9 +44,7 @@ const index = ({
           style={{ width: "50px", height: "35px", backgroundColor: logoColor }}
         ></div>
       </div>
-      <div
-        className="feature-box-content-container"
-      >
+      <div className="feature-box-content-container">
         <h3
           className="feature-box-title"
           style={{
