@@ -8,6 +8,7 @@ import ExtraFeature from "../components/templates/ExtraFeatures/index";
 import Review from "../components/templates/Review/index";
 import RecentBlogs from "../components/templates/RecentBlogs/index";
 import FAQSection from "../components/templates/FAQSection/index";
+import Footer from "../components/templates/Footer/index"
 const Home = () => {
   return (
     <div>
@@ -21,6 +22,7 @@ const Home = () => {
       <Review />
       <RecentBlogs />
       <FAQSection />
+      <Footer />
     </div>
   );
 };

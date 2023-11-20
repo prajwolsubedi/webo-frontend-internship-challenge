@@ -1,0 +1,30 @@
+.subscribe-btn {
+  width: 30%;
+  font-size: 15px;
+  height: 52px;
+  flex-shrink: 0;
+  background: #3734a9;
+  font-family: "Manrope", sans-serif;
+  border: none;
+  color: white;
+  margin-bottom: 21px;
+  cursor: pointer;
+}
+
+.subscribe-btn:hover{
+  background: #5b57df;
+}
+
+.email-subscribe-inp {
+  color: #181433;
+  border: none;
+  padding: 12px 0 14px 15px;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.32px;
+  width: 70%;
+  background: #eef;
+}
